@@ -22,6 +22,12 @@ void sort(vector<int> &v1,vector<int> &v2,vector<int> &v3){
     //   point_v2++;
     // }
   }
+  while(point_v1<size_v1){
+    v3.push_back(v1[point_v1]);
+  }
+  while(point_v2<size_v2){
+    v3.push_back(v2[point_v2]);
+  }
 }
 
 void display(vector<int> v){

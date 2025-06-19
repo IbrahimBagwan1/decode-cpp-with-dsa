@@ -15,7 +15,6 @@ void sort_pos_neg(vector<int> &v){
   while(first<last){
     if(v[first]<0) first++;
     if(v[last]>=0) last--;
-    if(first>last) break;
     if(v[first]>0 && v[last]<0){
       int temp=v[first];
       v[first]=v[last];

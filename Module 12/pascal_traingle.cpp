@@ -12,6 +12,9 @@ int main(){
     vector<int> a(i);
     v.push_back(a);
   }
+  // 1 
+  // 1 1 
+  // 1 2 1
 
   for(int i=0; i<n; i++){
     for(int j=0; j<=i; j++){

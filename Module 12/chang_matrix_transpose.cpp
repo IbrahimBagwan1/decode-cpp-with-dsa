@@ -21,14 +21,14 @@ int main(){
   {
     for (int j = 0; j <=i; j++)
     {
-      if(i==j){
-        arr[i][j]=arr[i][j];
-      }
-      else {
-        int temp=arr[i][j];
-        arr[i][j]=arr[j][i];
-        arr[j][i]=temp;
-      }
+      // if(i==j){
+      //   arr[i][j]=arr[i][j];
+      // }
+      // else {
+      int temp=arr[i][j];
+      arr[i][j]=arr[j][i];
+      arr[j][i]=temp;
+      // }
     }
   }
 

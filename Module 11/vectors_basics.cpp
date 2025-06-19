@@ -10,14 +10,14 @@ int main(){
   v.push_back(3);
   v.push_back(7);
   v.push_back(6);
-  // cout<<v[0]<<" ";
-  //   cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
-  // cout<<v[1]<<" ";
-  //   cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
-  // cout<<v[2]<<" ";
-  //   cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
-  // cout<<v[3]<<" ";
-  //   cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
+  cout<<v[0]<<" ";
+    cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
+  cout<<v[1]<<" ";
+    cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
+  cout<<v[2]<<" ";
+    cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
+  cout<<v[3]<<" ";
+    cout<<endl<<"The capacity of the vector is: "<<v.capacity()<<" ";
 
   sort(v.begin(), v.end());
 

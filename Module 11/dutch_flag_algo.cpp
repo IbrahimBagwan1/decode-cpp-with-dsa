@@ -38,7 +38,7 @@ void sort_vector(vector<int> &nums){
 
 
 int main(){
-  vector<int> v={0,2,1,1,2,0};
+  vector<int> v={0,2,1,1,2,0,1,1};
   cout<<endl<<"The Original Vector is: "<<endl;
   display(v);
 

@@ -11,14 +11,15 @@ int main(){
   cin>>col_y;
 
   int arr[z][col_y]={{1,2,3},
-                 {4,5,6},
-                 {7,8,9}};
+                     {4,5,6},
+                     {7,8,9}};
 
   cout<<"Enter The Matrix: "<<endl;
   for(int i=0; i<z; i++){
     for(int j=0; j<col_y; j++){
       cin>>arr[i][j];
     }
+    cout<<endl;
   }
   int minr=0;
   int minc=0;
