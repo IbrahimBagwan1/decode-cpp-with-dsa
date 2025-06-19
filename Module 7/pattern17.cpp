@@ -1,3 +1,13 @@
+//       1 
+//     1 2 1
+//   1 2 3 2 1
+// 1 2 3 4 3 2 1
+
+// 1 
+// 1 2 1
+// 1 2 3 2 1
+// 1 2 3 4 3 2 1
+
 
 #include<iostream>
 using namespace std;
@@ -20,9 +30,7 @@ int main(){
     for (int l = i-1; l >= 1; l--)
     {
       cout<<l<<" ";
-    }
-    
-    
+    }   
     cout<<endl;
   }
   return 0;
