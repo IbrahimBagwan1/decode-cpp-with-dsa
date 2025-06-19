@@ -7,7 +7,8 @@ int main(){
   cout<<str;
   string s;
   getline(cin,s);
-  cout<<s;
+  cout<<endl<<s;
   
+  cout<<str;
   return 0;
 }

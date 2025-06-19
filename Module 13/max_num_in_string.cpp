@@ -7,7 +7,7 @@ using namespace std;
 int main(){
   int n=4;
   string arr[n]={"1234","0021","2345","2901"};
-  int max=stoi(arr[0]);
+  int max=stoi(arr[0]); // stoi : string to integer.
   int index=0;
   for(int i=1; i<n; i++){
     if(stoi(arr[i])>max) max= stoi(arr[i]);

@@ -1,3 +1,6 @@
+//  Find the word that appears the most number of times in a sentence (string).
+// Also, print that word and how many times it appears.
+
 #include<iostream>
 #include<string>
 #include<vector>
