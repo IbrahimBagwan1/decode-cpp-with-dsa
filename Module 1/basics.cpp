@@ -1,16 +1,13 @@
-// area of a circle
-
 #include<iostream>
 using namespace std;
 
 int main(){
-  cout << "hello world" << endl;
-  cout << "Area of a circle" << endl;
+  cout<<"hello world"<<endl;
+  cout<<"Enter the Radius of the circle: ";
+
   float r;
-  cout<< "Enter the Radius: ";
-  cin >> r ;
-  float pi=3.14;
-  float area=float(pi)*r*r;
-  cout<<"The area of the Circle is: "<< area;
+  cin>>r;
+  float res = 3.14*r*r;
+  cout<< "The Area of the circle is: "<<res; 
   return 0;
 }
