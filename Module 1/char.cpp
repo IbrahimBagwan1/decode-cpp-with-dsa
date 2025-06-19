@@ -7,6 +7,8 @@ int main(){
   char ch='a'; 
   cout<<endl<<ch;
   cout<<": "<<int(ch);
-  
+  for (int i=0; i<=26; i++){
+    cout<<endl<<char('a'+i)<< ":"<<int('a')+i;
+  }
   return 0;
 }

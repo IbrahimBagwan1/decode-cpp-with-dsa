@@ -7,12 +7,24 @@ int main(){
   int x;
   cin>> x;
   int r=0,lastdig;
-  while(x!=0){ // 210
-    r=r*10;
+  bool isnegative;
+
+  if(x<0){
+    x=-x;
+    isnegative =true;
+  }
+
+  while(x!=0){ // 210 % 10 = 0
     lastdig=x%10;
-    r+=lastdig;
+    r=r*10 + lastdig;
     x/=10;
   }
-  cout<<"The Reverse Number is: "<<r;
+
+
+  if(isnegative){
+    r=-r;
+  }
+
+  cout<<r;
   return 0;
 }

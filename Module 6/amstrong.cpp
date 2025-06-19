@@ -4,6 +4,8 @@ each digit of the number is equal to the number itself, then the number is calle
 number. For example,
 */
 
+// 153 = 1cube + 5cube + 3cube
+
 #include<iostream>
 using namespace std;
 

@@ -7,7 +7,7 @@ int main(){
     cout<<"Enter the Number: ";
     cin>> arr[i];
   }
-  if(arr[1] > arr[2] && arr[1] > arr[2]){
+  if(arr[1] > arr[2] && arr[1] > arr[3]){
     cout<< "The First Element is Greater: "<< arr[1];
   }
   else if(arr[2] > arr[1] && arr[2] > arr[3]){
