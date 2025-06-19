@@ -21,14 +21,14 @@ This repository contains Data Structures and Algorithms (DSA) practice problems 
 
 ## 🗂️ Structure
 
-- `arrays/`
-- `linked_lists/`
-- `stacks_queues/`
-- `trees/`
-- `graphs/`
-- `sorting_searching/`
-- `dynamic_programming/`
-- `miscellaneous/`
+- `Module - arrays/`
+- `Module - linked_lists/`
+- `Module - stacks_queues/`
+- `Module - trees/`
+- `Module - graphs/`
+- `Module - sorting_searching/`
+- `Module - dynamic_programming/`
+- `Module - miscellaneous/`
 
 Each folder contains:
 - Problem statements
