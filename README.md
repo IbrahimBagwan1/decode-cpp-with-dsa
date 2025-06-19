@@ -12,7 +12,7 @@ This repository contains Data Structures and Algorithms (DSA) practice problems 
 
 1. **Clone the repository:**
   ```bash
-  git clone https://github.com/your-username/decode-cpp-dsa.git
+  git clone https://github.com/IbrahimBagwan1/decode-cpp-with-dsa
   ```
 2. **Navigate to the directory:**
   ```bash
