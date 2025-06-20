@@ -1,6 +1,6 @@
 #include<iostream>
 #include<algorithm>
-using namespace std;
+using namespace std; 
 
 void pre_in_post(int n){
   if(n==0) return ;

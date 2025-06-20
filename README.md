@@ -1,6 +1,7 @@
 # Decode C++ With DSA
+# This is The Code of the Course Of PW Skills. Tought By Raghav Sir.
 
-This repository contains Data Structures and Algorithms (DSA) practice problems and solutions as part of the **Decode C++ With DSA** course.
+This repository contains Data Structures and Algorithms (DSA) Entire Code in the course with practice problems and solutions as part of the **Decode C++ With DSA** course.
 
 ## 📚 About
 
@@ -44,4 +45,6 @@ Contributions are welcome! Please open issues or submit pull requests.
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-Happy Coding!
+## 🙏 Credits
+
+Credit also goes to **PW Skills** for creating and providing this course.
