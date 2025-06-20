@@ -1,3 +1,5 @@
+// generates all permutations of a given string using recursion.
+
 #include<iostream>
 #include<vector>
 #include<string>

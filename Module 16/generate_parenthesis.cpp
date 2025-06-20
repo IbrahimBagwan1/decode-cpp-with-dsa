@@ -1,4 +1,5 @@
 // Generates all valid balanced parentheses combinations of n pairs using recursion by tracking open and close counts
+// example n=3.
 // ((()))
 // (()())
 // (())()

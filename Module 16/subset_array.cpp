@@ -1,3 +1,16 @@
+// C++ program generates all subsets (power set) of a given array using recursion.
+// example: {1,2,3}
+
+// (empty)
+// 3
+// 2
+// 2 3
+// 1
+// 1 3
+// 1 2
+// 1 2 3
+
+
 #include<iostream>
 #include<vector>
 #include<algorithm>

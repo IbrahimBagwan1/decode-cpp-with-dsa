@@ -25,6 +25,11 @@ public:
 };
 
 int main(){
-
+  C star;
+  star.b_ka_public=12;
+  A star3;
+  star3.a_ka_public=21;
+  cout<<star3.a_ka_public;
+ 
   return 0;
 }
