@@ -3,6 +3,7 @@
 #include<string>
 using namespace std;
 
+// sr: start row, er: end row.
 int maze(int sr,int sc, int er, int ec){
   if(sr>er || sc > ec) return 0;
   if(sr==er && sc==ec) return 1;
@@ -42,8 +43,8 @@ void print_path_using_2_variable(int sr,int sc, string s){
 
 int main(){
   // cout<<"The Total No of Ways are: "<<maze(1,1,4,4)<<endl;
-  cout<<"The Total No of Ways are: "<<maze_using_2_variable(4,4)<<endl;
-  // print_path(1,1,4,4,"");
-  print_path_using_2_variable(4,4,"");
+  // cout<<"The Total No of Ways are: "<<maze_using_2_variable(4,4)<<endl;
+  print_path(1,1,3,3,"");
+  // print_path_using_2_variable(4,4,"");
   return 0;
 }
