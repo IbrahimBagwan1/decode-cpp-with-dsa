@@ -1,3 +1,6 @@
+/*  Generates the nth term of the Count and Say sequence using recursion by counting consecutive digits in the previous term. */
+
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -28,7 +31,7 @@ string countNsay(int n){
 
 int main(){
   string s;
-  int n=5;
+  int n=4;
 
   s= countNsay(n);
   cout<<s;

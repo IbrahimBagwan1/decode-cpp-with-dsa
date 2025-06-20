@@ -1,3 +1,8 @@
+/* Given an array arr[] = {2, 3, 5} and a target = 8,
+   you want to find all combinations of numbers that sum up to 8.
+   Each number can be used any number of times (unlimited supply).
+   The combinations should be in non-decreasing order (to avoid duplicates). */
+
 #include<iostream>
 #include<vector>
 #include<string>

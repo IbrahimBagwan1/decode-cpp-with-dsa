@@ -1,3 +1,10 @@
+// Generates all valid balanced parentheses combinations of n pairs using recursion by tracking open and close counts
+// ((()))
+// (()())
+// (())()
+// ()(())
+// ()()()
+
 #include<iostream>
 #include<vector>
 #include<string>
@@ -17,7 +24,7 @@ void parenthesis(string v,int op, int cl, int n){
 
 int main(){
   string v;
-  int n=4;
+  int n=3;
   parenthesis(v,0,0,n);
   return 0;
 }
