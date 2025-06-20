@@ -1,4 +1,11 @@
 // generate binary string of length n without consequtive ones.
+// Example for n = 3:
+// 000
+// 001
+// 010
+// 100
+// 101
+
 #include<iostream>
 #include<vector>
 #include<string>
