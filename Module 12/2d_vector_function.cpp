@@ -8,7 +8,7 @@ int main(){
 
   vector< vector<int> > v1(m,vector<int> (2)); // this is 2D Vector...
 
-  vector< vector<int> > v2(m, vector<int> (4,3)); // this is a vector of a vector .
+  vector< vector<int> > v2(m, vector<int> (4,3)); // this is a vector of a vector ., 2d vector. 
 
   for(int i=0; i<m; i++){
     for(int j=0; j<4; j++){
