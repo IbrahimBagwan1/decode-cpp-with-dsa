@@ -18,7 +18,7 @@ void factor(int n){
 }
 
 int main(){
-  int num = 49;
+  int num = 28;
   factor(num);
   return 0;
 }
