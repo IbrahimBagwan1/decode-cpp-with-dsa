@@ -33,7 +33,7 @@ int main() {
     cin >> n;
 
     int primeCount = sol.countPrimes(n);
-    cout << "Number of prime numbers less than " << n << " is: " << primeCount << endl;
+    cout << "Number of Prime Numbers less than " << n << " is: " << primeCount << endl;
 
     return 0;
 }
