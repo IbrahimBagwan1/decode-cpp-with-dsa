@@ -9,7 +9,7 @@ public:
         if(n <= 2) return 0;
 
         vector<bool> seive(n, true); // size n because we want primes < n
-        seive[0] = seive[1] = false;
+        seive[0] = seive[1] = false; 
  
         for(int i = 2; i * i < n; i=i+1) {
             if(seive[i]) {
