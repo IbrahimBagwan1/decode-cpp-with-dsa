@@ -8,7 +8,7 @@ int factorial(int n){
 }
 
 int main(){
-  cout<<"Enter the Factorial You want: ";
+  cout<<"Enter the Factorial You want any but not very big number like 3 digits: ";
   int n;
   cin>>n;
   cout<< factorial(n);
