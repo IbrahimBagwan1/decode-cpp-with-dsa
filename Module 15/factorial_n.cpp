@@ -9,8 +9,9 @@ int factorial(int n){
 
 int main(){
   cout<<"Enter the Factorial You want any but not very big number like 3 digits: ";
-  int n;
-  cin>>n;
-  cout<< factorial(n);
+  int n; 
+
+  cin>>n; 
+  cout<< factorial(n); // factorial: a number that is multiplied to all its predecessor numbers upto 1
   return 0;
-} 
+}  
