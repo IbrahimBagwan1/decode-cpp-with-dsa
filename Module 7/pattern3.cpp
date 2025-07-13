@@ -2,7 +2,7 @@
 // * * 
 // * * * 
 // * * * *
-
+// you must print the above pattern !!!
 #include<iostream>
 using namespace std;
 
