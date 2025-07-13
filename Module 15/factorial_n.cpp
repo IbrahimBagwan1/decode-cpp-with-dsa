@@ -12,6 +12,6 @@ int main(){
   int n; 
 
   cin>>n; 
-  cout<< factorial(n); // factorial: a number that is multiplied to all its predecessor numbers upto 1
+  cout<< factorial(n); 
   return 0;
 }  
