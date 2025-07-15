@@ -2,6 +2,7 @@
 // 1 2 3
 // 1 2
 // 1
+// you must print the above pattern !!!
 
 #include<iostream>
 using namespace std;
