@@ -6,6 +6,8 @@ using namespace std;
 // * * * * * 
 //     *     
 //     *   
+
+// you must print the above pattern !!!
 int main(){
   cout<<"Enter the Number: ";
   int n;
