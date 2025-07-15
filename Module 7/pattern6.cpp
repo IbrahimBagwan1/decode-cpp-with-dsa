@@ -4,6 +4,7 @@
 1 3 5
 1 3 5 7
 */
+// you must print the above pattern !!!
 #include<iostream>
 using namespace std;
 
