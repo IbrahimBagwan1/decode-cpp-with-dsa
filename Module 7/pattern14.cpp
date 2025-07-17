@@ -3,6 +3,8 @@
 //   1 2 3
 // 1 2 3 4
 
+// you must print the above pattern !!!
+
 #include<iostream>
 using namespace std;
 
