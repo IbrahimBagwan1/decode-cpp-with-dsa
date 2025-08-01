@@ -1,0 +1,80 @@
+A Graph is just a way to show connections between things. It is set of edges and vertices where each edge is associated with unordered pair of vertices. Graph is a data structure that is defined by two components :
+
+Node or Vertex: It is a point or joint between two lines like people, cities, or websites. In below diagram the nodes are A, B, C, D, E, F.
+Edge: It is line or connection between two nodes like connections between them (friendships, roads, links).In the below diagram edges are the connecting lines in between them.
+Simple-Graph
+Simple Graph
+To know about "Graph representation" click here 
+
+Basic Concepts in Graph
+Ordered Pair: Ordered pair is a connection between two nodes u and v which is identified by unique pair (u, v). The pair (u, v) is ordered because (u ,v) is not same as (v, u). It is used in case of directed graph to show which vertex is directing to which vertex.
+
+Unordered Pair: In this (u, v) that is identified by unique pair(u, v) can be identified as (v, u). In this the order does not matter in which they come, they are treated same. Undirected graphs are its common example.
+
+Weighted Graph: It is a graph (directed or undirected) in which each edge is assigned some numerical value. This value is called a weight. These weights often represent costs, distances, capacities or other quantifiable relationships between vertices.
+
+Unweighted Graph: It is a graph in which edges do not have any weight assigned. In this graph all the edges are treated equally or given equal priority. There are only two possibility for edges, either an edge exists or it does not.
+
+Applications
+Graph is a data structure which is used extensively in our real-life like examples below:
+
+Social Network: Each user is represented as a node and all their activities, suggestion and friend list are represented as an edge between the nodes.
+Google Maps: Various locations are represented as vertices or nodes and the roads are represented as edges and graph theory is used to find shortest path between two nodes.
+Recommendations on e-commerce websites: The “Recommendations for you” section on various e-commerce websites uses graph theory to recommend items of similar type to user’s choice.
+Graph theory is also used to study molecules in chemistry and physics.
+Terminologies in Graphs
+Adjacent Node: A node ‘v’ is said to be adjacent node of node ‘u’ if and only if there exists an edge between ‘u’ and ‘v’.
+Degree of a Node: In an undirected graph the number of edges incident on a node is the degree of the node. In case of directed graph:
+Indegree of the node is the number of arriving edges to a node.
+Outdegree of the node is the number of departing edges to a node. 
+Self-Loop: When an edge in graph connects a vertex to itself it is called self-loop. This edge starts and ends at same vertex. A self-loop is counted twice in case of degree of a node.
+The sum of degree of all the vertices in a graph G is even.
+Path: It is a sequence of edges which connects a sequence of distinct vertices. In this sequence of edges no vertices is repeated except in case of closed path, where only first and last vertex can be repeated.
+Isolated Node: A node with degree 0 is known as isolated node. Isolated node can be found by Breadth first search(BFS). It finds its application in LAN network in finding whether a system is connected or not. 
+Types of Graphs
+Types_of_Graph
+Types of Graphs
+Directed Graph
+A graph in which the direction of the edge is defined to a particular node is a directed graph.
+
+directedgraph
+Directed Graph
+Directed Acyclic graph: It is a directed graph with no cycle. For a vertex ‘v’ in DAG there is no directed edge starting and ending with vertex ‘v’. The arrows go in one direction only (Directed) and You can’t go in a circle or loop (Acyclic).
+Tree: A tree is just a restricted form of graph. That is, it is a DAG with a restriction that a child can have only one parent.
+Undirected Graph
+A graph in which the direction of the edge is not defined. So if an edge exists between node ‘u’ and ‘v’, then there is a path from node ‘u’ to ‘v’ and vice-versa.
+
+undirected-graph
+Undirected Graph
+Connected graph: A graph is connected when there is a path between every pair of vertices. In a connected graph there is no unreachable node.
+Complete graph: A graph in which each pair of graph vertices is connected by an edge. In other words, every node ‘u’ is adjacent to every other node ‘v’ in graph ‘G’. A complete graph would have n(n-1)/2 edges.
+Biconnected graph: A connected graph which cannot be broken down into any further pieces by deletion of any vertex. It is a graph with no articulation point. 
+Some Important Graphs
+1. Regular Graph: A graph in which every vertex x has same/equal degree. K-regular graph means every vertex has k edges. Every complete graph Kn will have (n-1)-regular graph which means degree is n-1.       
+
+
+Regular graphs 
+2. Bipartite Graph: It is graph G in which vertex set can be partitioned into two subsets U and V such that each edge of G has one end in U and another end point in V.
+
+
+Bipartite graph 
+3. Complete Bipartite graph : It is a simple graph with vertex set partitioned into two subsets u and w.  
+
+U = {v1, v2 , v3, ..., vm} and W = {w1, w2, w3, ..., wn}
+
+The elements in these sets are vertices.
+
+There is an edge from each vi to each wj.
+There is no self loop.         
+
+Complete Bipartite graph
+4. Cycle graph : It is a connected graph where each vertex has degree 2, forming a single closed loop without any branches or end points. This graph contain atleast 3 vertices. Suppose a graph has following vertices:
+
+v1, v2, v3, ..., vn 
+
+This graph will be cycle graph if it has edges as follows:
+
+(v1,v2), (v2,v3), (v3,v4), ..., (vn-1,vn), (vn,v1).
+
+
+Cycle graph
