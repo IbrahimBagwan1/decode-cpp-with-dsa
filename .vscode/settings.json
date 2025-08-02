@@ -4,6 +4,7 @@
     "iostream": "cpp",
     "string": "cpp",
     "format": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "unordered_map": "cpp"
   }
 }
