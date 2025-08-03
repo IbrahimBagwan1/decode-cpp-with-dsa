@@ -5,7 +5,7 @@ using namespace std;
 vector<int> bfs(vector<vector<int>>& adj)  {
     int V = adj.size();
     
-    int s = 0; // source node
+    int s = 0; // source node 
     // create an array to store the traversal
     vector<int> res;
 
