@@ -6,6 +6,7 @@ vector<int> bfs(vector<vector<int>>& adj)  {
     int V = adj.size();
     
     int s = 0; // source node 
+    // union 
     // create an array to store the traversal
     vector<int> res;
 
